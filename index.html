@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>EPICS-Project</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        new WOW().init();
+    </script>
+    
+		<script>
+
+			$(function() {
+  				$('a[href*=#]:not([href=#])').click(function() {
+    				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      					var target = $(this.hash);
+      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      					if (target.length) {
+        					$('html,body').animate({
+          						scrollTop: target.offset().top
+        					}, 1000);
+        				return false;
+      					}
+    				}
+  				});
+			});
+		
+		</script>
+
+        <style>
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                }
+
+        </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar-default" style="border-radius:0;"  id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://github.com/Aksh-Raizada" target="_blank" style="font-family: 'Playball', cursive; font-size: 28px; color: #fff;">EPICS</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOMEPAGE</a>
+                        </li>
+                        <li><a href="#content2">ABOUT US</a>
+                        </li>
+                        <li><a href="#content6">PORTFOLIO</a>
+                        </li>
+                        <li><a href="#content8">PRICING</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <style>
+            .navbar-default {
+                background: transparent;
+            }
+            .navbar-default .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .navbar-sticky {
+                background: rgb(72, 79, 87);
+            }
+            .navbar-sticky .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+
+        </style>
+
+    </header>
+
+    <div class="banner">
+        <div class="opacity_overlay">
+            <div class="info">
+                <h2>EPICS Project Website</h2>
+                <br>
+                <h3> Digital Transformation for Local Vendors </h3>
+                <br>
+                <a href="#content"><button type="button" id="proceed">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="content">
+        <div class="container">
+            <h2>Register Your Store Here!</h2>
+            <h3>Empowering Local Businesses Through Digital Presence</h3>
+
+            <div class="boxes">
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="wow flipInX"><i class="fa fa-fw fa-check"></i>Covers Everything</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>EPICS (Empowering Local Businesses Through Digital Presence) is a revolutionary initiative aimed at transforming the way local vendors operate and connect with their communities. Our platform provides local businesses with the tools and technology they need to establish a strong online presence and effectively cater to the needs of their locality.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="wow flipInX"><i class="fa fa-fw fa-gift"></i>Everything you need</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>By leveraging the power of digital transformation, we empower local vendors to compete with bigger brands by bringing them closer to their customers. With EPICS, local vendors can receive and fulfill orders efficiently, ensuring that they remain the preferred choice for consumers in their area.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="wow flipInX"><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Join us in our noble mission to support and uplift local businesses, thereby driving substantial economic growth and fostering prosperity in communities not only locally but also globally. Together, let's embark on this transformative journey, where every step we take contributes to building stronger economies, vibrant societies, and brighter futures for all.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="content2">
+    	<div class="opacity_overlay">
+    		<div class="container-fluid" style="padding: 0;">
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-edit glyphicon-lg"></span>
+    					<h6>Attract More Customers</h6>
+    					<hr>
+    					<p>Unlock the potential of your local business with our powerful digital solutions. Reach a wider audience and attract more customers to your storefront.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-compressed glyphicon-lg"></span>
+    					<h6>Stand Out Online</h6>
+    					<hr>
+    					<p>Elevate your online presence with eye-catching designs and engaging content. Stand out from the competition and make a lasting impression on potential customers.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-camera glyphicon-lg"></span>
+    					<h6>Boost Your Sales</h6>
+    					<hr>
+    					<p>Maximize your sales opportunities with our intuitive tools and resources. Streamline your business operations and increase revenue with ease.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-modal-window glyphicon-lg"></span>
+    					<h6>Build Customer Loyalty</h6>
+    					<hr>
+    					<p>Foster strong relationships with your customers through personalized interactions and exceptional service. Build loyalty and keep customers coming back for more.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section id="content3">
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+           				<h2>Key Features</h2>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-6">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-home glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Digital Storefronts</h4>
+                            <p>
+                                Create visually stunning online storefronts that showcase your products and services to local customers.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-primary clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-envelope glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Order Management</h4>
+                            <p>
+                                Efficiently manage orders, track inventory, and streamline your business operations with our intuitive order management system.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-success clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-user glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Customers Engagement</h4>
+                            <p>
+                                Engage with your customers through personalized promotions, loyalty programs, and responsive customer support.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-info clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-info-sign glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Analytics Dashboard</h4>
+                            <p>
+                                Gain valuable insights into your business performance with our analytics dashboard. Track sales, monitor website traffic, and make informed decisions to drive growth.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-warning clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-signal glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Marketing Tools</h4>
+                            <p>
+                                Access a suite of marketing tools to promote your products effectively. From email campaigns to social media integration, we've got you covered.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-danger clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-globe glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Global Reach</h4>
+                            <p>
+                                Expand your reach beyond local boundaries and tap into global markets. With our platform, your products can reach customers worldwide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section id="content4">
+    	<div class="container">
+    		<center>
+            <h2>Our Services</h2>
+            </center>
+    		<hr>
+    		<div class="product-info">
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>Products</h5>
+    					<h4>Unique Product Showcase</h4>
+    					<hr>
+    					<p>Present your products in a distinctive and memorable way that sets you apart from competitors. Utilize innovative displays and storytelling to make your offerings stand out.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>Profits</h5>
+    					<h4>Profit Maximization Strategies</h4>
+    					<hr>
+    					<p>Implement strategic initiatives to boost profitability and ensure sustainable growth. Explore pricing optimization, cost-saving measures, and revenue diversification strategies.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>Engagement</h5>
+    					<h4>Customer Engagement Solutions</h4>
+    					<hr>
+    					<p>Build meaningful connections with your customers through personalized interactions and exceptional service. Leverage technology to enhance communication and customer satisfaction.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section id="content5">
+    	<div class="opacity_overlay">
+    		<div class="container">
+    			<h3>Business Growth Prediction</h3>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="c100 p25">
+						<span>25%</span>
+						<div class="slice">
+							<div class="bar"></div>
+							<div class="fill"></div>
+						</div>
+					</div>
+					<h4>Increase Business</h4>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="c100 p50 green">
+						<span>50%</span>
+						<div class="slice">
+							<div class="bar"></div>
+							<div class="fill"></div>
+						</div>
+					</div>
+					<h4>Increase Profits</h4>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="c100 p75 orange">
+						<span>75%</span>
+						<div class="slice">
+							<div class="bar"></div>
+							<div class="fill"></div>
+						</div>
+					</div>
+					<h4>Increase Reputation</h4>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section id="content6">
+    	<div class="container">
+            <h2>Our Journey Through Images</h2>
+            <h3>Discover the Vibrancy of Local Businesses through the online media by joining us to empower the local vendors!</h3>
+            
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery1.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery2.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery3.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery4.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery5.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery6.jpg" class="img-responsive">
+			</div>
+    	</div>
+    </section>
+    
+    <section id="content7">
+    	<div class="conatiner-fluid" style="padding: 0;">
+    		<h2>Are you ready for the digital upgrade?</h2>
+    	</div>
+    </section>
+    
+    <section id="content8">
+        <div id="pricing-table">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Free Plan</p>
+                                    <p class="pricing-rate"><sup>₹</sup> 250 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>1,000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>limited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>limited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Business Plan</p>
+                                    <p class="pricing-rate"><sup>₹</sup> 500 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>10,000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Extended Plan</p>
+                                    <p class="pricing-rate"><sup>₹</sup> 650 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>10,0000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+	<section id="content9">
+    	<div id="carousel">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-8 col-md-offset-2">
+                    	<div class="quote"><i class="fa fa-quote-left fa-4x"></i>
+                    	</div>
+                    	<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        	<!-- Carousel indicators -->
+                        	<ol class="carousel-indicators">
+                            	<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                        	</ol>
+                        	<!-- Carousel items -->
+                        	<div class="carousel-inner">
+                            	<div class="active item">
+                                	<blockquote>
+                                    	<p>
+                                            "I'm thrilled to see how your platform is enabling local retailers like me to embrace digital transformation effortlessly. Having an online presence has expanded my reach beyond what I thought possible!"
+                                        </p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>
+                                            "The round-the-clock accessibility feature is a game-changer for my business. Now, even when my shop is closed, customers can place orders anytime, ensuring I never miss out on potential sales. Thank you for this invaluable opportunity!"
+                                        </p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>
+                                            "I can't emphasize enough how beneficial it is for both businesses and customers to have a platform like yours. With a diverse product range and the convenience of online shopping, I'm proud to support local vendors while enjoying the ease of shopping from the comfort of my home."
+                                        </p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>The primary goal is to facilitate the digital transformation of local retailers and vendors. This involves creating an online presence for them, enabling them to showcase their products or services to a wider audience.
+                </p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							VIT Bhopal, Kothri Kalan, Mahdya Pradhesh
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							889 779 6060
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							support@template.com
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Newsletter</h3>
+				<hr>
+				<p>Subscribe to our newsletter to get the latest updates</p>
+				<input type="email" placeholder="Email address..." required>
+			</div>
+		</div>
+	</footer>
+	
+	<div id="copyright-part">
+		<p>&copy 2024 <span>
+            <a href="https://github.com/Aksh-Raizada" target="_blank">EPICS
+            </a>
+            </span> All Rights Reserved</p>
+	</div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.add("navbar-sticky")
+            navbar.classList.remove("navbar-default")
+          } else {
+            navbar.classList.remove("sticky")
+          }
+        }
+        </script>
+</body>
+
+</html>
