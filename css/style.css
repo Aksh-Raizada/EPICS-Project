@@ -640,6 +640,49 @@ header {
 /* Section End - Content 9 */
 /* ---------------------------- */
 
+/* ---------------------------- */
+/* Section Start - Content 10 */
+/* ---------------------------- */
+
+#content10 {
+    text-align: center;
+    padding: 20px;
+}
+
+#content10 h2 {
+    color: #FF5733; /* Change color as desired */
+    font-size: 24px; /* Adjust font size as desired */
+}
+
+#content10 h3 {
+    color: #2c51af; /* Change color as desired */
+    font-size: 18px; /* Adjust font size as desired */
+}
+
+#content10 img {
+    width: 70px; /* Adjust image size as desired */
+    transition: transform 0.5s;
+	color: beige;
+}
+
+/*
+#content10 img {
+    transform: scale(1.1); 
+    animation: shake 5s infinite;
+}
+*/
+
+@keyframes shake {
+    0% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    100% { transform: translateX(-2px); }
+}
+
+
+/* ---------------------------- */
+/* Section End - Content 10 */
+/* ---------------------------- */
+
 
 /* ---------------------------- */
 /* Section Start - Footer */
