@@ -1,0 +1,660 @@
+[{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf5e"
+  },
+  "shop_name": "Fresh Mart",
+  "owner_name": "Rahul Gupta",
+  "phone_number": "9876543210",
+  "address": "123, Main Street, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Accepts online payment, Fresh produce"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf5f"
+  },
+  "shop_name": "Sharma Hardware",
+  "owner_name": "Rajesh Sharma",
+  "phone_number": "8765432109",
+  "address": "45, MG Road, Sehore",
+  "delivery_radius": "2km",
+  "category": "Hardware",
+  "additional_information": "Open 7 days a week"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf60"
+  },
+  "shop_name": "Spark Electricals",
+  "owner_name": "Anil Singh",
+  "phone_number": "7654321098",
+  "address": "67, Nehru Nagar, Bhopal",
+  "delivery_radius": "10km",
+  "category": "Electrical",
+  "additional_information": "Specializes in LED lighting"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf61"
+  },
+  "shop_name": "Health Plus",
+  "owner_name": "Meena Verma",
+  "phone_number": "6543210987",
+  "address": "89, Lal Ghati, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Home delivery available for prescriptions"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf62"
+  },
+  "shop_name": "Super Mart",
+  "owner_name": "Sanjay Patel",
+  "phone_number": "5432109876",
+  "address": "12, Arera Colony, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Supermarket",
+  "additional_information": "Offers discounts on bulk purchases"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf63"
+  },
+  "shop_name": "Sharma Medicos",
+  "owner_name": "Rakesh Sharma",
+  "phone_number": "4321098765",
+  "address": "34, Station Road, Sehore",
+  "delivery_radius": "2km",
+  "category": "Medical",
+  "additional_information": "Stocks rare medicines"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf64"
+  },
+  "shop_name": "Green Grocers",
+  "owner_name": "Priya Singh",
+  "phone_number": "3210987654",
+  "address": "56, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Organic produce available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf65"
+  },
+  "shop_name": "City Hardware",
+  "owner_name": "Mohan Das",
+  "phone_number": "2109876543",
+  "address": "78, Hamidia Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Hardware",
+  "additional_information": "Free home delivery for bulk orders"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf66"
+  },
+  "shop_name": "Bright Electricals",
+  "owner_name": "Suresh Verma",
+  "phone_number": "1098765432",
+  "address": "90, MP Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electrical",
+  "additional_information": "Certified electricians available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf67"
+  },
+  "shop_name": "Care Pharmacy",
+  "owner_name": "Sunita Gupta",
+  "phone_number": "9876543210",
+  "address": "45, Kolar Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "24x7 emergency service available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf68"
+  },
+  "shop_name": "Mega Mart",
+  "owner_name": "Sameer Khan",
+  "phone_number": "8765432109",
+  "address": "23, Shyamla Hills, Bhopal",
+  "delivery_radius": "10km",
+  "category": "Supermarket",
+  "additional_information": "Large parking space available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf69"
+  },
+  "shop_name": "Gupta Grocers",
+  "owner_name": "Vikram Gupta",
+  "phone_number": "7654321098",
+  "address": "67, Arera Colony, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Family-owned business since 1980"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf6a"
+  },
+  "shop_name": "Sehore Hardware",
+  "owner_name": "Ravi Sharma",
+  "phone_number": "6543210987",
+  "address": "89, Nehru Market, Sehore",
+  "delivery_radius": "2km",
+  "category": "Hardware",
+  "additional_information": "Home delivery within 24 hours"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf6b"
+  },
+  "shop_name": "Power Electricals",
+  "owner_name": "Sandeep Patel",
+  "phone_number": "5432109876",
+  "address": "12, MP Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electrical",
+  "additional_information": "Deals in industrial electricals"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf6c"
+  },
+  "shop_name": "Cure Pharmacy",
+  "owner_name": "Neeta Verma",
+  "phone_number": "4321098765",
+  "address": "34, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Free consultation with pharmacist"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf6d"
+  },
+  "shop_name": "Daily Needs Mart",
+  "owner_name": "Anil Kumar",
+  "phone_number": "3210987654",
+  "address": "56, Lal Ghati, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Supermarket",
+  "additional_information": "Online order tracking available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf6e"
+  },
+  "shop_name": "Sharma Supermarket",
+  "owner_name": "Deepak Sharma",
+  "phone_number": "2109876543",
+  "address": "78, Arera Colony, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Supermarket",
+  "additional_information": "Loyalty program for regular customers"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf6f"
+  },
+  "shop_name": "Nature's Bounty",
+  "owner_name": "Rekha Singh",
+  "phone_number": "1098765432",
+  "address": "90, Kolar Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Emphasis on locally sourced products"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf70"
+  },
+  "shop_name": "Reliable Hardware",
+  "owner_name": "Vinay Das",
+  "phone_number": "9876543210",
+  "address": "45, New Market, Sehore",
+  "delivery_radius": "2km",
+  "category": "Hardware",
+  "additional_information": "10% discount for first-time customers"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf71"
+  },
+  "shop_name": "Elite Electricals",
+  "owner_name": "Pawan Verma",
+  "phone_number": "8765432109",
+  "address": "23, Raisen Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electrical",
+  "additional_information": "Authorized dealer of top brands"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf72"
+  },
+  "shop_name": "Medi Plus",
+  "owner_name": "Kamlesh Gupta",
+  "phone_number": "7654321098",
+  "address": "67, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Offers home healthcare products"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf73"
+  },
+  "shop_name": "Green Basket",
+  "owner_name": "Sonali Singh",
+  "phone_number": "6543210987",
+  "address": "89, Arera Colony, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Weekly deals on fresh fruits and veggies"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf74"
+  },
+  "shop_name": "Sehore Supermart",
+  "owner_name": "Ashok Patel",
+  "phone_number": "5432109876",
+  "address": "12, MG Road, Sehore",
+  "delivery_radius": "2km",
+  "category": "Supermarket",
+  "additional_information": "Open till midnight"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf75"
+  },
+  "shop_name": "Bright Pharma",
+  "owner_name": "Anjali Verma",
+  "phone_number": "4321098765",
+  "address": "34, Nehru Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Online doctor consultation available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf76"
+  },
+  "shop_name": "Home Mart",
+  "owner_name": "Gaurav Gupta",
+  "phone_number": "3210987654",
+  "address": "56, Ayodhya Bypass, Bhopal",
+  "delivery_radius": "10km",
+  "category": "Supermarket",
+  "additional_information": "Same-day delivery for orders placed before noon"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf77"
+  },
+  "shop_name": "Sehore Grocers",
+  "owner_name": "Vijay Singh",
+  "phone_number": "2109876543",
+  "address": "78, Station Road, Sehore",
+  "delivery_radius": "2km",
+  "category": "Groceries",
+  "additional_information": "Wide variety of imported goods"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf78"
+  },
+  "shop_name": "City Pharmacy",
+  "owner_name": "Kiran Patel",
+  "phone_number": "1098765432",
+  "address": "90, JP Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Free home delivery for elderly customers"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf79"
+  },
+  "shop_name": "Fresh Choice",
+  "owner_name": "Preeti Sharma",
+  "phone_number": "9876543210",
+  "address": "45, Chunabhatti, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Customized gift baskets available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf7a"
+  },
+  "shop_name": "Sehore Hardware",
+  "owner_name": "Vivek Das",
+  "phone_number": "8765432109",
+  "address": "23, Nehru Market, Sehore",
+  "delivery_radius": "2km",
+  "category": "Hardware",
+  "additional_information": "Monthly DIY workshops"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf7b"
+  },
+  "shop_name": "Electric Avenue",
+  "owner_name": "Rishi Verma",
+  "phone_number": "7654321098",
+  "address": "67, Raisen Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electrical",
+  "additional_information": "Installation services available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf7c"
+  },
+  "shop_name": "Health First",
+  "owner_name": "Sangeeta Singh",
+  "phone_number": "6543210987",
+  "address": "89, Kolar Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Health checkup camps every month"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf7d"
+  },
+  "shop_name": "Market Master",
+  "owner_name": "Vikas Patel",
+  "phone_number": "5432109876",
+  "address": "12, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Supermarket",
+  "additional_information": "Discounts on bulk purchases"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf7e"
+  },
+  "shop_name": "Grocer's Delight",
+  "owner_name": "Ananya Verma",
+  "phone_number": "4321098765",
+  "address": "34, New Market, Sehore",
+  "delivery_radius": "2km",
+  "category": "Groceries",
+  "additional_information": "Online cooking tutorials available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf7f"
+  },
+  "shop_name": "PharmaCare",
+  "owner_name": "Deepak Gupta",
+  "phone_number": "3210987654",
+  "address": "56, MP Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "24-hour helpline for medical emergencies"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf80"
+  },
+  "shop_name": "Sehore Supermarket",
+  "owner_name": "Nisha Patel",
+  "phone_number": "2109876543",
+  "address": "78, MG Road, Sehore",
+  "delivery_radius": "2km",
+  "category": "Supermarket",
+  "additional_information": "Weekly deals on household essentials"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf81"
+  },
+  "shop_name": "Blossom Pharmacy",
+  "owner_name": "Arjun Verma",
+  "phone_number": "1098765432",
+  "address": "90, Nehru Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Offers free home delivery for orders above $50"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf82"
+  },
+  "shop_name": "Kitchen Kraft",
+  "owner_name": "Meenal Singh",
+  "phone_number": "9876543210",
+  "address": "45, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Wide range of kitchenware available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf83"
+  },
+  "shop_name": "Sehore Medicos",
+  "owner_name": "Vikrant Sharma",
+  "phone_number": "8765432109",
+  "address": "23, Lal Ghati, Sehore",
+  "delivery_radius": "2km",
+  "category": "Medical",
+  "additional_information": "Free home delivery within 24 hours"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf84"
+  },
+  "shop_name": "Elite Hardware",
+  "owner_name": "Prakash Das",
+  "phone_number": "7654321098",
+  "address": "67, Hamidia Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Hardware",
+  "additional_information": "10% discount for government employees"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf85"
+  },
+  "shop_name": "Light House",
+  "owner_name": "Sonia Verma",
+  "phone_number": "6543210987",
+  "address": "89, Arera Colony, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electrical",
+  "additional_information": "Specializes in energy-efficient lighting"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf86"
+  },
+  "shop_name": "Health Hub",
+  "owner_name": "Ritu Singh",
+  "phone_number": "5432109876",
+  "address": "12, MP Nagar, Sehore",
+  "delivery_radius": "2km",
+  "category": "Medical",
+  "additional_information": "Loyalty points for prescription purchases"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf87"
+  },
+  "shop_name": "Farm Fresh",
+  "owner_name": "Rajat Gupta",
+  "phone_number": "4321098765",
+  "address": "34, Kolar Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Groceries",
+  "additional_information": "Partners with local farmers"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf88"
+  },
+  "shop_name": "Sehore Super Bazaar",
+  "owner_name": "Rakesh Patel",
+  "phone_number": "3210987654",
+  "address": "56, MG Road, Sehore",
+  "delivery_radius": "2km",
+  "category": "Supermarket",
+  "additional_information": "Home delivery available for senior citizens"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf89"
+  },
+  "shop_name": "Quick Fix Pharmacy",
+  "owner_name": "Shreya Verma",
+  "phone_number": "2109876543",
+  "address": "78, Lal Ghati, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Medical",
+  "additional_information": "Online prescription refills available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf8a"
+  },
+  "shop_name": "Tech Savvy",
+  "owner_name": "Ankit Singh",
+  "phone_number": "1098765432",
+  "address": "90, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electrical",
+  "additional_information": "Offers smart home automation solutions"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf8b"
+  },
+  "shop_name": "Wellness World",
+  "owner_name": "Ashish Verma",
+  "phone_number": "9876543210",
+  "address": "45, Nehru Market, Sehore",
+  "delivery_radius": "2km",
+  "category": "Medical",
+  "additional_information": "Yoga and wellness workshops conducted weekly"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf8c"
+  },
+  "shop_name": "Shubh Supermarket",
+  "owner_name": "Varun Patel",
+  "phone_number": "8765432109",
+  "address": "23, New Market, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Supermarket",
+  "additional_information": "Free home delivery for orders above $100"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf8d"
+  },
+  "shop_name": "Comfort Zone",
+  "owner_name": "Ritu Gupta",
+  "phone_number": "7654321098",
+  "address": "67, Ayodhya Bypass, Bhopal",
+  "delivery_radius": "10km",
+  "category": "Furniture",
+  "additional_information": "Customized furniture available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf8e"
+  },
+  "shop_name": "Urban Interiors",
+  "owner_name": "Amit Singh",
+  "phone_number": "6543210987",
+  "address": "89, MP Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Furniture",
+  "additional_information": "Interior design consultation available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf8f"
+  },
+  "shop_name": "Garden Glory",
+  "owner_name": "Shalini Verma",
+  "phone_number": "5432109876",
+  "address": "12, Lal Ghati, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Gardening",
+  "additional_information": "Wide variety of plants and gardening tools"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf90"
+  },
+  "shop_name": "Bed & Bath",
+  "owner_name": "Anuj Patel",
+  "phone_number": "4321098765",
+  "address": "34, Arera Colony, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Home Goods",
+  "additional_information": "High-quality bedding and bath essentials"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf91"
+  },
+  "shop_name": "Tech Haven",
+  "owner_name": "Rohit Sharma",
+  "phone_number": "3210987654",
+  "address": "56, TT Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Electronics",
+  "additional_information": "Latest gadgets and electronics available"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf92"
+  },
+  "shop_name": "Fashion Fiesta",
+  "owner_name": "Priya Verma",
+  "phone_number": "2109876543",
+  "address": "78, Hamidia Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Clothing",
+  "additional_information": "Trendy clothing for all ages"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf93"
+  },
+  "shop_name": "Pet Paradise",
+  "owner_name": "Manish Gupta",
+  "phone_number": "1098765432",
+  "address": "90, MP Nagar, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Pet Supplies",
+  "additional_information": "Premium pet food and accessories"
+},
+{
+  "_id": {
+    "$oid": "6638ddc8e9c41c016b9dbf94"
+  },
+  "shop_name": "Book Nook",
+  "owner_name": "Akash Singh",
+  "phone_number": "9876543210",
+  "address": "45, Kolar Road, Bhopal",
+  "delivery_radius": "5km",
+  "category": "Books",
+  "additional_information": "Wide range of books for all interests"
+}]

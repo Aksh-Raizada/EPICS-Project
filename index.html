@@ -517,6 +517,78 @@
             </center>
     	</div>
     </section>
+
+    <section id="content11">
+        <h1>Shop Selection Form</h1>
+        <form id="shop-form">
+            <label for="shop-dropdown">Select a shop:</label>
+            <select id="shop-dropdown" name="selected-shop">
+                <!-- Shops will be dynamically populated here -->
+            </select>
+            <br><br>
+            <label for="category-dropdown">Category:</label>
+            <select id="category-dropdown" name="selected-category" disabled>
+                <!-- Categories will be dynamically populated here -->
+            </select>
+            <br><br>
+            <label for="delivery-radius-dropdown">Delivery radius:</label>
+            <select id="delivery-radius-dropdown" name="selected-delivery-radius" disabled>
+                <!-- Delivery radius options will be dynamically populated here -->
+            </select>
+            <br><br>
+            <button type="submit">Place Order</button>
+        </form>
+
+        <script>
+            fetch('EPICS.LocalVendors.json')
+                .then(response => response.json())
+                .then(shops => {
+                    const dropdown = document.getElementById('shop-dropdown');
+
+                    shops.forEach(shop => {
+                        const option = document.createElement('option');
+                        option.text = shop.shop_name;
+                        option.value = JSON.stringify(shop); // Storing shop data in option value
+                        dropdown.add(option);
+                    });
+
+                    // Add event listener to shop dropdown
+                    dropdown.addEventListener('change', function() {
+                        const selectedShop = JSON.parse(this.value); // Parsing selected shop data
+                        const categoryDropdown = document.getElementById('category-dropdown');
+                        const deliveryRadiusDropdown = document.getElementById('delivery-radius-dropdown');
+
+                        // Enable category and delivery radius dropdowns
+                        categoryDropdown.disabled = false;
+                        deliveryRadiusDropdown.disabled = false;
+
+                        // Clear previous options
+                        categoryDropdown.innerHTML = '';
+                        deliveryRadiusDropdown.innerHTML = '';
+
+                        // Populate category dropdown
+                        const categoryOption = document.createElement('option');
+                        categoryOption.text = selectedShop.category;
+                        categoryDropdown.add(categoryOption);
+
+                        // Populate delivery radius dropdown
+                        const radiusOption = document.createElement('option');
+                        radiusOption.text = selectedShop.delivery_radius;
+                        deliveryRadiusDropdown.add(radiusOption);
+                    });
+                })
+                .catch(error => console.error('Error fetching shops:', error));
+
+            document.getElementById('shop-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const selectedShop = JSON.parse(document.getElementById('shop-dropdown').value);
+                const selectedCategory = selectedShop.category;
+                const selectedDeliveryRadius = selectedShop.delivery_radius;
+                alert('You have selected:\nShop: ' + selectedShop.shop_name + '\nCategory: ' + selectedCategory + '\nDelivery Radius: ' + selectedDeliveryRadius);
+                // You can perform further actions here, like submitting the form data to a server
+            });
+        </script>
+    </section>
 	
 	<footer id="footer">
 		<div class="container">
