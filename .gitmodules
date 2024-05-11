@@ -1,0 +1,3 @@
+[submodule "EPICS-Project"]
+	path = EPICS-Project
+	url = https://github.com/Aksh-Raizada/EPICS-Project
